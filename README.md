@@ -98,7 +98,7 @@ Here are the meanings of the keywords for each line of this example. The keyword
 
 &emsp; &emsp; Screenshot of calculation result in Parawiev:  
   
- ![ ](./img/scal_bndD.mp4)  
+ ![ ](./img/scal_bndD.gif)  
 
 ***
 &emsp; &emsp; &emsp; **Example 2, file _scal_U_bndD.vxc_**  
@@ -106,7 +106,7 @@ Example of solution without external sources and with Dirichlet boundary conditi
 The size of the computational area is 20x20x20, the grid step is 50mm. Inside there is an domain with a constant value of the scalar field.  
   
 View of the workspace and calculation results:  
-![ ](./img/scal_U_bndD.jpg) &emsp; &emsp;![ ](./img/scal_U_bndD.mp4)  
+![ ](./img/scal_U_bndD.jpg) &emsp; &emsp;![ ](./img/scal_U_bndD.gif)  
 
 Text entered on the  **Palette** tab:  
 ```
@@ -129,7 +129,7 @@ The size of the calculation area is 20x20x20, the grid step is 50mm.
 
 View of the workspace and calculation results:  
 
-![ ](./img/scal_U0_Vex_bndD.jpg) &emsp; &emsp;  ![ ](./img/scal_U0_Vex_bndD.mp4)  
+![ ](./img/scal_U0_Vex_bndD.jpg) &emsp; &emsp;  ![ ](./img/scal_U0_Vex_bndD.gif)  
 
 Text entered on the **Palette** tab:  
 ```
@@ -159,7 +159,7 @@ The size of the computational domain is 44x26x20, the grid step is 2mm.
 
 View of the workspace and calculation results (the gradient vectors of the scalar field are shown):  
   
-![ ](./img/scal_bndA_2src.jpg)  &emsp; &emsp; ![ ](./img/scal_bndA_2src.mp4)   
+![ ](./img/scal_bndA_2src.jpg)  &emsp; &emsp; ![ ](./img/scal_bndA_2src.gif)   
 Text entered on the  **Palette** tab:  
 ```
             d1 D=1 SRC0 = Fp
@@ -186,7 +186,7 @@ The size of the calculation area is 75x65x40, the grid step is 2mm.
 
 View of the workspace and calculation results (the gradient vectors of the scalar field are shown):   
 
-![ ](./img/scal_move_across.jpg)   &emsp; &emsp; ![ ](./img/scal_move_across.mp4)  
+![ ](./img/scal_move_across.jpg)   &emsp; &emsp; ![ ](./img/scal_move_across.gif)  
 Text entered on  **Palette** tab:  
 ```
             sM1 D=1 SRC0 = Fm Vsx=Vm1x Vsy=Vm1y Vsz=Vm1z
@@ -234,7 +234,7 @@ The size of the calculation domain is 76x40x22, the grid step is 2mm.
 
 View of the workspace and calculation results (the gradient vectors of the scalar field are shown):  
 
-![ ](./img/scal_move_out.jpg)  &emsp; &emsp;   ![ ](./img/scal_move_out.mp4)    
+![ ](./img/scal_move_out.jpg)  &emsp; &emsp;   ![ ](./img/scal_move_out.gif)    
 Text entered on the **Palette** tab:  
 ```
             M1 D=1 SRC0 = F0 Vsx=Vmx Vsy=Vmy 
@@ -254,7 +254,7 @@ The size of the calculation region is 52x55x26, the grid step is 5mm.
 
 View of the workspace and calculation results (vectors of current in the coil and eddy currents in the plate are shown):  
 
-![ ](./img/vec_eddy_src_move.jpg)  &emsp; &emsp; ![ ](./img/vec_eddy_src_move.mp4)  
+![ ](./img/vec_eddy_src_move.jpg)  &emsp; &emsp; ![ ](./img/vec_eddy_src_move.gif)  
 Text entered on the  **Palette** tab:  
 ```
             axp D=1 SRCx=Fp  Vsx=Vmx  Vsy= Vmy

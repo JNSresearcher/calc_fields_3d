@@ -287,7 +287,7 @@ The size of the calculation region is 52x55x26, the grid step is 5mm.
 
 View of the workspace and calculation results (vectors of current in the coil and eddy currents in the plate are shown):  
    
-![ ](./img/vec_eddy_Vex.jpg)   &emsp; &emsp; ![ ](./img/vec_eddy_Vex.mp4)  
+![ ](./img/vec_eddy_Vex.jpg)   &emsp; &emsp; ![ ](./img/vec_eddy_Vex.gif)  
 Text entered on the **Palette** tab :  
 
 ```

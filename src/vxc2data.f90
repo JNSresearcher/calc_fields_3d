@@ -77,7 +77,7 @@ letter='123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwx
 solv='BCG';    tolerance=1.d-3; itmax=10000;    bound='DDDDDD'; BND = 0.d0;  files='out';  
 
 OPEN(1,file='in.vxc')
-!ââîä ñòðóêòóðû
+!
 k0=0;k1=0;k2=0; kp=0;  
 
 numfun = 0;  numMech=0; size_PHYS_C=0; size_PHYS_U0=0; size_PHYS_Ubnd=0;

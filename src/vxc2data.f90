@@ -77,7 +77,7 @@ letter='123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwx
 solv='BCG';    tolerance=1.d-3; itmax=10000;    bound='DDDDDD'; BND = 0.d0;  files='out';  
 
 OPEN(1,file='in.vxc')
-!ââîä ñòðóêòóðû
+!Ã¢Ã¢Ã®Ã¤ Ã±Ã²Ã°Ã³ÃªÃ²Ã³Ã°Ã»
 k0=0;k1=0;k2=0; kp=0;  
 
 numfun = 0;  numMech=0; size_PHYS_C=0; size_PHYS_U0=0; size_PHYS_Ubnd=0;
@@ -264,7 +264,7 @@ DO WHILE ( 1==1)
 
         ALLOCATE(v(sdx*sdy*sdz), v_e(sdx*sdy*sdz), source=0_1)
 
-        READ(1,'(a)',end=91,iostat=ios) ch_e ! ïðîïóñê ñòðîêè   <Data>
+        READ(1,'(a)',end=91,iostat=ios) ch_e ! Ã¯Ã°Ã®Ã¯Ã³Ã±Ãª Ã±Ã²Ã°Ã®ÃªÃ¨   <Data>
         IF ( uncompress ) THEN
         ! START UNCOMPRESS
         PRINT*,'start uncompress'
@@ -764,10 +764,10 @@ IF (numfun /=0 ) THEN
                             ALLOCATE(sp_F)
                             sp_F=tmp(m,nn,'Y',next_F) 
                             next_F => sp_F
-                        ELSEIF (Fun(m)%ex == 'D' ) THEN
+                        ELSEIF (Fun(m)%ex == 'Z' ) THEN
                             fun_nod(m)%numnod_Fz = fun_nod(m)%numnod_Fz + 1
                             ALLOCATE(sp_F)
-                            sp_F=tmp(m,nn,'D',next_F) 
+                            sp_F=tmp(m,nn,'Z',next_F) 
                             next_F => sp_F
                         ELSEIF (Fun(m)%ex == '0' ) THEN
                             fun_nod(m)%numnod_F0 = fun_nod(m)%numnod_F0 + 1
@@ -956,7 +956,7 @@ CHARACTER(*) ch
                         fun_nod(numfun)%num_Vmech(2) = numMech  ! the number of the mechanical func is recorded
                         fun_nod(numfun)%vel_Vmech(2) = 0.d0 
                     CASE DEFAULT                                 ! the rest are either a number or quotes
-                        fun_nod(numfun)%num_Vmech(2) = 0         ! çwriting the number of the mechanical function = 0
+                        fun_nod(numfun)%num_Vmech(2) = 0         ! Ã§writing the number of the mechanical function = 0
                         fun_nod(numfun)%vel_Vmech(2) = evaluate( words(j+1 + n+1) )
                 END SELECT
             ELSEIF ( index( words(j+1 + n ),'VSZ') /=0 ) THEN
